@@ -157,5 +157,5 @@ function xmasLog(color, name, message, footer)
               },
           }
       }
-    PerformHttpRequest(xenons, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest(webhook, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 end]]
